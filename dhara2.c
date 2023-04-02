@@ -2,6 +2,7 @@
 #include <math.h>
 
 int main() {
+    // C programme to find sum of the series : " 1^2+ 2^2 + 3^2 + .... + n^2 " 
     // Prompt the user to enter a value for n
     printf("Enter the value of n: ");
 
