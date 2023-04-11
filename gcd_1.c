@@ -2,7 +2,6 @@
 
 int main() {
     int num1, num2, gcd;
-    // credit chatgpt :)
     printf("Enter 1st number: ");
     scanf("%d",&num1);
     printf("Enter 2nd number: ");
