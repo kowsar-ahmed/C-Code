@@ -1,0 +1,18 @@
+#include <stdio.h>
+
+int main() {
+    int num1, num2, gcd;
+    // credit chatgpt :)
+    printf("Enter 1st number: ");
+    scanf("%d",&num1);
+    printf("Enter 2nd number: ");
+    scanf("%d",&num2);
+
+    for(int i=1; i<=num1 && i<=num2; i++) {
+        if(num1%i==0 && num2%i==0) {
+            gcd = i;
+        }
+    }
+    printf("The GCD of %d and %d is %d", num1, num2, gcd);
+    return 0;
+}
